@@ -13,11 +13,11 @@
 6. `npm run e2e` un e2e tests
 7. `npm test` run all tests
 
-# 特别说明
+## 特别说明
 
-默认使用750px设计稿进行移动端自适应开发，开发时使用px单位即可，编译时会自动转化为相应的rem。也可自行修改设计稿尺寸，可在build/utils.js 文件的 cssLoaders 方法中的 px2remLoader 处进行修改
+默认使用750px设计稿进行移动端自适应开发，开发时使用px单位即可，编译时会自动转化为相应的rem。也可自行修改设计稿尺寸，可在根目录的build/utils.js 文件的 cssLoaders 方法中的 px2remLoader 处进行修改
 
-# 项目目录结构说明
+## 项目目录结构说明
 ``````
 vue-template
 |---------src                             项目开发文件
