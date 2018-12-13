@@ -12,6 +12,8 @@ import 'normalize.css'
 import axios from 'axios'
 // 配合lib-flexible 实现移动端自适应布局
 import 'lib-flexible'
+// 引用自定义全局样式
+import '@/assets/style/common.scss'
 
 // 注入 cube-ui
 Vue.use(Cube)
