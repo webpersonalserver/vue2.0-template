@@ -3,9 +3,13 @@
 使用 vue2.0 搭建的基础模板,模板中主要集成了 `vue-router`、`vuex`、`cube-ui`、`sass`、`axios`
 
 `vue-router`：https://router.vuejs.org/zh/
+
 `vuex`：https://vuex.vuejs.org/zh/guide/
+
 `cube-ui`（基于vue的移动端UI框架）：https://didi.github.io/cube-ui/#/zh-CN/docs/introduction
+
 `sass`：https://www.sass.hk/
+
 `axios`：https://www.kancloud.cn/yunye/axios/234845
 
 
