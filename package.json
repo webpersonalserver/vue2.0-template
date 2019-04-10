@@ -18,6 +18,7 @@
     "cube-ui": "^1.12.6",
     "lib-flexible": "^0.3.2",
     "normalize.css": "^8.0.1",
+    "postcss-px2rem-exclude": "0.0.6",
     "px2rem-loader": "^0.1.9",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.1.1",

@@ -27,6 +27,32 @@
 ## 特别说明
 
 默认使用750px设计稿进行移动端自适应开发，开发时使用px单位即可，编译时会自动转化为相应的rem。也可自行修改设计稿尺寸，可在根目录的build/utils.js 文件的 cssLoaders 方法中的 px2remLoader 处进行修改
+1. 直接写px，编译后会直接转化成rem —- 除开下面两种情况，其他长度用这个
+2. 在px后面添加/no/，不会转化px，会原样输出。 — 一般border需用这个
+3. 在px后面添加/px/,会根据dpr的不同，生成三套代码。—- 一般字体需用这个
+  编译前：.selector {
+        width: 150px;
+        height: 64px; /*px*/
+        font-size: 28px; /*px*/
+        border: 1px solid #ddd; /*no*/
+        }
+  编译后：.selector {
+        width: 2rem;
+        border: 1px solid #ddd;
+        }
+        [data-dpr="1"] .selector {
+        height: 32px;
+        font-size: 14px;
+        }
+        [data-dpr="2"] .selector {
+        height: 64px;
+        font-size: 28px;
+        }
+        [data-dpr="3"] .selector {
+        height: 96px;
+        font-size: 42px;
+        }
+  
 
 ## 项目目录结构说明
 ``````
