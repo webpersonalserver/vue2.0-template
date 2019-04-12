@@ -52,6 +52,7 @@
         height: 96px;
         font-size: 42px;
         }
+4. 设置除font-size以外的尺寸时，使用mini(750px),如：width: mini(750px)
   
 
 ## 项目目录结构说明

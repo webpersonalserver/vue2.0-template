@@ -1,3 +1,8 @@
+// 尺寸转换，缩小一倍
+@function mini($n) {
+  @return $n / 2
+}
+
 .vue-container{
   width: 100%;
   overflow: hidden;
