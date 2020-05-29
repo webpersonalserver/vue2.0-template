@@ -1,7 +1,6 @@
 <template>
   <!-- 路由模块模板 -->
   <div class="vue-container">
-    
     <!-- 界面构造区域 -->
 
   </div>

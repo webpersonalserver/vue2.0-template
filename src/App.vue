@@ -16,12 +16,12 @@ export default {
   },
   created () {
     // 处理路由模块是否需要缓存,并记录存储
-    const routes = this.$router.options.routes;
+    const routes = this.$router.options.routes
     routes.forEach(route => {
       if (route.meta && route.meta.isKeepAlive) {
-        this.includeRouterName.push(route.name);
+        this.includeRouterName.push(route.name)
       }
-    });
+    })
   }
 }
 </script>
